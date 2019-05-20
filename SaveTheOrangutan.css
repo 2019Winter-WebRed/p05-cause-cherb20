@@ -1,0 +1,67 @@
+/*
+* Cristina Herb
+* 5/19/19
+* Your Cause 
+*/
+
+/* The universal selector */
+
+* { 
+
+}
+
+/* Body attributes here */
+
+* {margin:0; 
+    padding: 0;}
+/* This sets the margin and patting to 0 */
+
+body { background-color: #FFC7A7; /* This changes the background color */
+    font-family: monospace; /* This changes the font */
+    font-size: 14px; /* This changes the font size */} 
+    
+h1 {font-family: cursive, fantasy, monospace; /* This changes the font */
+    font-size: 45px; /* This changes the font size */
+    text-align: center; /* This centers the heading */ }
+
+#pic1 {float: left; /* This floats the image left */
+    width: 200px; /* This changes the width of the picture */
+    height: 200px; /* This changes the height of the picture */
+    border: 5px solid #FF631C; /* This adds a border to the picture */
+    margin-top: 1em; 
+    margin-right: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em; /* This adds margins to the picture */}
+
+.pictures {width: 200px; /* This changes the width of the picture */
+    height: 200px; /* This changes the height of the picture */
+    float: left; /* This floats the image left */
+    padding-top: 1em; 
+    padding-right: 2em;
+    padding-bottom: 1em;
+    padding-left: 2em; 
+    /* This adds paddings to the picture */ }
+
+#pic5 {float: right; /* This floats the image right */
+    width: 200px; /* This changes the width of the picture */
+    height: 200px; /* This changes the height of the picture */
+    border: 5px solid #FF631C; /* This adds a border to the picture */
+    margin-top: 1em; 
+    margin-right: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em; /* This adds margins to the picture */ }
+
+p { padding-top: 1em; 
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em; /* This adds paddings to the paragraph */}
+
+h2 { padding-top: .25em; 
+    padding-right: 1em;
+    padding-bottom: .25em;
+    padding-left: 1em; /* This adds paddings to the second heading */}
+
+main { border-top: 5px solid green; /* This adds a green top border to the main section */
+    border-bottom: 5px solid green; /* This adds a green bottom border to the main section */ }
+
+#lastparagraph {float: right; /* This floats the paragraph right */ }
